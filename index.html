@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus It Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="busituplogo.png" class="logo">
+            <ul>
+                <li><a href="index2.html">Travel Guide</a></li>
+                <li><a href="index3.html">Famous Places</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="Informations.xlsx"><button class="btn">Informations</button></a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Upgrade Your Journey</h1>
+            <p>Ensuring for your safe and happy journey<br>Register for eextra benefits.</p>
+            <form>
+                <input type="email" placeholder="Email address">
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <div class="features2">
+        <div class="row2">
+            <div class="text-col2">
+                <h1>Book Your Ticket Now!</h1>
+                <p>Enter the details of your journey</p>
+            </div>
+        </div>
+        <div class="booking-form-box">
+            <h2>Travel Details</h2>
+            <form action="connect.php" method="post">
+                <label for="Destination">Destination:</label>
+                <select class="Destinations">
+                    <option name="Destination" value="Kashmiri-Gate" id="Kashmiri-Gate">Kashmiri Gate</option>
+                    <option name="Destination" value="Gurugram" id="Gurugram">Gurugram</option>
+                    <option name="Destination" value="Palam" id="Palam">Palam</option>
+                    <option name="Destination" value="Noida" id="Noida">Noida</option>
+                    <option name="Destination" value="Vrindawan" id="Vrindawan">Vrindawan</option>
+                    <option name="Destination" value="Agra" id="Agra">Agra</option>
+                    <option name="Destination" value="Punjab" id="Punjab">Punjab</option>
+                    <option name="Destination" value="Haryana" id="Haryana">Haryana</option>
+                    <option name="Destination" value="Ayodhya" id="Ayodhya">Ayodhya</option>
+                </select>
+                <label for="Bustype">Bus type:</label>
+                <select class="buses">
+                    <option name="Bustype" value="ac" id="paymentMethod">AC</option>
+                    <option name="Bustype" value="non-ac" id="paymentMethod">Non-AC</option>
+                    <option name="Bustype" value="sleeper" id="paymentMethod">Sleeper</option>
+                </select>
+
+                <label for="number">Number of Passengers:</label>
+                <input class="number_pass" type="number" name="number" id="number" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="Paymentmethod">Payment method:</label>
+                <select class="Payment-Method">
+                    <option name="Paymentmethod" value="Paytm" id="Paytm">Paytm</option>
+                    <option name="Paymentmethod" value="Phone-Pay" id="Phone-Pay">Phone-Pay</option>
+                    <option name="Paymentmethod" value="GPay" id="GPay">GPay</option>
+                </select>
+                   <div class="outer-div">
+                    <div class="inner-div" id="image-container">
+                        <img src="paymentqr.jpg" alt="Image">
+                    </div>
+                </div>
+                <button class="btn2" >send response</button>
+            </form>
+           
+            <button class="temp" onclick="showImage()">continue with payment</button>  
+        </div>
+    </div>
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Want to get direction to the station?</h2>
+                <p>Click on the map logo and get the directions to the bus station.</p>
+            </div>
+            <div class="img-col">
+                <ul>
+                    <li><a href="https://maps.google.com/"><button class="btnn"><img src="gmlogo.png"></button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js">  </script>
+<script src="script.js"> </script>
+</html>

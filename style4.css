@@ -1,0 +1,120 @@
+.nav{
+    height: 220px;
+    background:#795bca;    
+}
+*{
+padding: 0;    
+left: 0;
+right: 0;
+margin: 0;    
+}
+body{
+height: 1400px;
+background:#eae6df;
+}
+.wtsp
+{
+height: 75px;
+margin-top: 30px;
+margin-left: 10rem;
+}
+span{
+color: rgb(255, 255, 255);
+font-size: 50px;
+font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+position: relative;
+top: -16px;
+left: 18px;
+}
+.main{
+height: 900px;
+background:#cfbaba;
+margin-left: 17%;
+margin-right: 17%;
+margin-top: 2%;    
+box-shadow: rgba(0, 146, 243, 0.19) 0px 17px 50px 0px, rgba(0, 146, 243, 0.19) 0px 17px 50px 0px;   
+border-radius: 3px;  
+}
+.row{    
+    display: flex;
+}
+#text{    
+    margin-top: 220px;
+    font-family: poppins;
+}
+    
+h1{
+    font-size: 28px;
+    position: relative;
+    left: 3rem;    
+}
+strong{
+    color: black black;
+}
+#img{   
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.dot{
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 600px;
+}
+h2{
+   font-size: 18px;
+}
+h2>strong{
+    font-weight: bolder;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    font-size: 18px;
+}
+.slide{    
+    position: relative;
+    left: 4rem;
+    top: -20px;
+    font-size: 18px;
+}
+.link{
+    text-decoration: none;
+    color: #db2294;
+    font-weight: bold;
+    font-size: 15px;
+}
+.dot{
+    position: relative;
+    top: 10px;
+}
+.last1{
+    margin-top: 50px;
+    margin-left: 10rem;
+}
+.last{
+    background: #f7f9fa;
+}
+strong{
+    font-size: 18px;
+    font-family: bold;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    border: #ff0088;
+    color: #fff;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: #ff0088;
+    margin-left: 600px;
+}

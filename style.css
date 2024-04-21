@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url("nlogo3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display:  inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    border: #ff0088;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #ff0088;
+}
+.btn2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    border: #3ee43e;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #3ee43e;
+    
+}
+.btnn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: #050000;
+    font-weight: 500;
+    cursor: pointer;
+    background: transparent;
+}
+.btn img{
+    width: 20px;
+    margin-right: 10px;
+}
+.content{
+    margin-top: 14%;
+    color: #b19d9d;
+    max-width: 620px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+}
+.features{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(117, 106, 206, 0.65),rgba(125, 114, 207, 0.65)),url("mapback.jpg");
+    background-position: center;
+    position: relative;
+    width: 100%;
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-col img{
+    background: transparent;
+    margin-top: 50%;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.features h2{
+    margin-top: 30%;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+
+.features2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(44, 31, 148, 0.65),rgba(9,0,77,0.65)),url("nlogo2.jpg");
+    background-position: center;
+    position: relative;
+    width: 100%;
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.features2 h1{
+    margin-top: 40%;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+.booking-form-box{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 450px;
+    width: 50%;
+    margin: -25%;
+    margin-left: 60%;
+}
+.booking-form-box h2{
+    text-align: center;
+}
+
+.booking-form-box form{
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form-box input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form-box button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+.booking-form{
+    padding: px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-grp{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Scroll{
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.outer-div {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+.inner-div {
+    display: none;
+}
+#image-container img {
+    width: 200px; /* Set the width as desired */
+    height: auto; /* Maintain aspect ratio */
+}
